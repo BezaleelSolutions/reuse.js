@@ -1,7 +1,9 @@
 
 ## Overview
 This plugin allows developers to create modular HTML templates by splitting the head, header, and footer sections into separate files (head.html, header.html, and footer.html). The main HTML file will reference these sections, and a JavaScript file (reuse.js) will dynamically load the content into the appropriate sections of the page. This approach eliminates the need for server-side languages like PHP to include these common elements, simplifying the development process.
-Key Benefits
+
+Second the plugin is also used for SPA ( Single page Applications ) , means without page refresh different pages can be viewed in same page structure. Developers need to initialize some configurations after loading  and it will do the magic for you. 
+## Key Benefits
 1.	Modularity: Separate files for head, header, and footer elements.
 2.	DRY Principle: Avoids repetition of common HTML structures.
 3.	Easy Maintenance: Update one file to reflect changes across multiple pages.
@@ -11,7 +13,7 @@ Key Benefits
 7.	No Full Page Refresh: This can be used also for page update without full page refresh. That is a need of modern web applications.
 
 ## Structure
-HTML Structure
+HTML Structure For template creation
 The main HTML file should be structured as follows:
 
 ` <!DOCTYPE html> `
