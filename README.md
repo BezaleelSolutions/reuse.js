@@ -13,6 +13,30 @@ Key Benefits
 ## Structure
 HTML Structure
 The main HTML file should be structured as follows:
+
+` <!DOCTYPE html> `
+` <html> `
+` <head id="app-head"> <!--FOR SEO AND OTHER STUFF--> `
+
+` </head> `
+` <body> `
+   
+` <div id="app-header"> <!--FOR APP HEADER REFRENCE. HEADER CONTENT WILL BE AUTOPOPULATED HERE BY APP.JS--> `
+
+` </div> `
+
+` <div id="app-content"> <!--ALL OF THE CONTENT FOR THE CURRENT PAGE WILL GO HERE--> `
+
+` </div> `
+ ` <!--  footer --> `
+` <div id="app-footer"> <!--FOOTER CONTENT WILL BE AUTOPOPULATED BY APP.JS --> `
+
+` </div> `
+
+` <script src="reuse.js"></script> `
+  
+` </body> `
+` </html> `
  
 ## JavaScript (reuse.js)
 The JavaScript file dynamically loads the content from the head.html, header.html, and footer.html files into the respective sections of the page. Additionally, it handles navigation and history management.
