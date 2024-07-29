@@ -10,7 +10,8 @@ Second the plugin is also used for SPA ( Single page Applications ) , means with
 4.	SEO Friendly: Ensures proper head elements are included for each page.
 5.	Improved Navigation: Uses the History API for seamless navigation without full page reloads.
 6.	No Server-Side Language Required: Achieves functionality traditionally handled by PHP using pure HTML and JavaScript.
-7.	No Full Page Refresh: This can be used also for page update without full page refresh. That is a need of modern web applications.
+7.	SPA Support: This can be used also for Single page applications. That is a need of modern web applications.
+
 
 ## Structure
 HTML Structure For template creation
